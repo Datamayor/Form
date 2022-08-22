@@ -11,20 +11,20 @@
     <div class="top">
          <form action="">
 
-             <label class="Account-Number" for="Account Number">Account Number:</label><br>
-            <input type="text" id="Account-Number" name="Account Number" placeholder="0123456789"><br>
+             <label  for="Account Number">Account Number:</label>
+            <input type="text"  id="Account-Number" name="Account Number" placeholder="0123456789"><br>
 
-                <label for="Surname">Surname:</label><br>
+                <label for="Surname">Surname:</label>
                <input type="text" id="Surname" name="Surname" placeholder="Oyebamiji"><br>
 
-                <label for="First Name">First Name:</label><br>
+                <label for="First Name">First Name:</label>
                <input type="text" id="First Name" name="First Name" placeholder="Boluwatiwi"><br>
 
-                <label for="Middle Name">Middle Name:</label><br>
+                <label for="Middle Name">Middle Name:</label>
                <input type="text" id="Middle Name" name="Middle Name" placeholder="james"><br>
 
-                <label for="Mobile Phone Number">Mobile Phone Number:</label><br>
-               <input type="text" id="Mobile" name="Mobile Phone Number" placeholder="08131988120"><br>
+                <label for="Mobile Phone Number">Mobile Phone Number:</label>
+               <input type="text" class="Mobile" id="Mobile" name="Mobile Phone Number" placeholder="08131988120"><br>
             
         </form>
 
@@ -34,10 +34,10 @@
         <div class="special">
             <h3 class="sn">Special needs: 
             <form action="">
-                <label for="Yes">Yes:</label><br>
-                <input type="checkbox" id="Yes" name="Yes"><br>
-                <label for="No">Linking:</label><br>
-                <input type="checkbox" id="No" name="No"><br>
+                <label for="Yes">Yes:</label>
+                <input type="checkbox" id="Yes" name="Yes">
+                <label for="No">No:</label>
+                <input type="checkbox" id="No" name="No">
             </form> 
             <h3>if Yes,explain</h3>
             </h3>
@@ -46,15 +46,18 @@
         <form class="lc" action="">
             
                 <label for="Linking">Linking:</label>
-               <input type="checkbox" id="Linking" name="Linking"><br>
+               <input type="checkbox" id="Linking" name="Linking">
 
 
                 <label for="Change of BVN Details">Change of BVN Details:</label>
                <input type="checkbox" id="Change of BVN Details" name="Change of BVN Details">
         </form>
-        <h1 class="cd">Correction details</h1>
-        <h2 class="top-form">Kindly complete tabte below for change in details</h2>
-        <h2 class="cr">Change require <h5>(tick as applicable)</h5>
+       
+        <h3 class="cd">Correction details</h3>
+        <h4 class="top-form">Kindly complete table below for change in details</h4>
+        <div class="details">
+        <h4 class="cr">Change require <h5>(tick as applicable)</h5> </h4>
+
             <label for="Name">Name:</label>
             <input type="checkbox" id="Name" name="Name">
 
@@ -64,16 +67,17 @@
             <label for="Phone Number">Phone Number:</label>
             <input type="checkbox" id="Phone Number" name="Phone Number">
 
-            <label for="Gender">Gender:</label><br>
-            <input type="checkbox" id="Gender" name="Gender"><br>
-        </h2>
+            <label for="Gender">Gender:</label>
+            <input type="checkbox" id="Gender" name="Gender">
+       
+    </div>
 
         
 <table>
     <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
+      <th>Current Deal</th>
+      <th>New Deal</th>
+      <th>Reason for Change</th>
     </tr>
     <tr>
       <td>Alfreds Futterkiste</td>
@@ -110,38 +114,42 @@
   <h4 class="ac"> Agreement Clauses</h4><br>
   <p class="fist">
     -i agree to submit Biometric information to the bank as may be required  for account opening and account processing,
-    to authenticate <br> and enhance security of my account and transaction from time to timebr
+    to authenticate  and enhance security of my account and transaction from time to time <br>
     -I understand that Biometric is a unique physiological data such as fingerprint, iris and hand scan or face and Voice
-    recognition, used to <br> positively identify a particular person <br><br>
+    recognition, used to  positively identify a particular person <br><br>
     -I here by attest the above is true and complete and equally authorise UBA to update my details accordingly.
     
   </p><br>
   <h4 class="dc">Disclaimer Clause</h4> <br>
   <p> I understand that the bank may be obliged to disclose my information/details including my Biometric details to regulators, 
-    law enforcement <br> agencies and such other bodies as may be entitled to request for same .while UBA will exercise due care to ensure
+    law enforcement  agencies and such other bodies as may be entitled to request for same .while UBA will exercise due care to ensure
 that biometric information are kept secure, UBA shall not be liable for any disclosure made pursuant to law or other regulatory directive</p>
 
-    <hr>
+    <hr class="sdhr">
     <h4 class="sd"> Signature & date</h4>
 
     <h2 class="fbo">For Bank Only</h2>
     <br>
 
     <form action="">
-        <label for="Finger print verification on ZF1 device  ">Finger print verification on ZF1 device:</label><br>
-            <input type="checkbox" id="Finger print" name="Finger print verification on ZF1 device"><br>
+
+        <input type="checkbox" id="Finger print" name="Finger print verification on ZF1 device">
+        <label for="Finger print verification on ZF1 device  " class="finger">Finger print verification on ZF1 device</label>
+            
           
-            <label for="Validation on NBISS portal">Validation on NBISS portal:</label><br>
-            <input type="checkbox" id="Validation on NBISS " name="Validation on NBISS portal"><br>
+            <input type="checkbox" id="Validation on NBISS " name="Validation on NBISS portal">
+            <label for="Validation on NBISS portal" class="finger">Validation on NBISS portal</label>
+     
+            
+            <input type="checkbox" id="Verification with details" name="Verification with details on core Banking Application">
+            <label for="Verification with details on core Banking Application" class="finger">Verification with details on core Banking Application</label>
+            
 
-            <label for="Verification with details on core Banking Application">Verification with details on core Banking Application:</label><br>
-            <input type="checkbox" id="Verification with details" name="Verification with details on core Banking Application"><br>
-
-    </form>
-      <p>
+    </form> <br>
+      <p class="finger">
         We have checked and confirm all processes ticked above to be completed and accurate in line with the policy provision of the bank.we also take
         <br> responsibility for any error(s) emanating from modifying unverified BVN linked to account.
-      </p>
+      </p><br><br>
 
       <p class="ci"> Customer ID: <hr></p>
       <br>

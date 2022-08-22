@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    color: red;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -17,6 +18,26 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
+  
+  #Mobil input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .form{
+    border: 20%;
+
+  }
+
+  .special{
+    width: 50%;
+    border: 1px solid black;
+  }
 
   
   .Account-Number{
@@ -31,4 +52,63 @@ input[type=text], select {
 
   label{
     display: inline;
+  }
+
+  Table,th,td{
+    width: ;
+    border: 1px solid #000;
+    border-collapse: collapse;
+  }
+
+  input{
+    padding: 10px;
+  }
+
+  .details{
+ 
+  }
+
+  .top-form{
+    font-weight: 100;
+  }
+
+  .cr{
+    margin-right: 20px;
+  }
+  hr{
+    width: 400px;
+    margin-left: 60%;
+  }
+  .ac{
+    font-weight: 900;
+  }
+  .dc{
+    font-weight: 900;
+  }
+
+  .sdhr{
+    margin-top: 100px;
+  }
+  .fbo{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(155, 15, 15);
+    color: white;
+  }
+  .finger{
+    color: black;
+    font-style: italic;
+  }
+  input[type=checkbox], select {
+    width: 19px;
+    height: 19px;
+    justify-content: center;
+  }
+
+  .ac{
+    margin-top: 40px;
+  }
+
+  .sd{
+      margin-left: 70%;
   }
