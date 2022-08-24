@@ -8,6 +8,7 @@
 }
 body{
     margin: 60px;
+    max-width: 1440px;
 }
 input[type=text], select {
     width: 70%;
@@ -17,6 +18,10 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+  }
+
+  table{
+    width: 600px;
   }
   
   #Mobil input[type=text], select {
