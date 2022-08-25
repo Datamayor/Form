@@ -23,14 +23,9 @@ body{
     padding:11px;
     border-radius: 9px;
     margin-left: 2px;
-    width: 500px;
+    width: 600px;
     margin-bottom: 50px;
   }
-
-  #Account-Number{
-    width: 600px;
-  }
-
 
   .surname,.phase1a{
     display: flex;
@@ -38,9 +33,6 @@ body{
     gap: 9px;
   }
 
-  .surname{
-    margin-right: 120px;
-  }
   .phase2{
     display: flex;
     gap: 175px;
@@ -51,22 +43,14 @@ body{
     border:3px solid  rgb(217, 211, 211);
     padding:11px;
     border-radius: 10px;
-    width: 550px;
-    margin-bottom: 50px;
-  }
-
-  #First-Name {
     width: 600px;
+    margin-bottom: 50px;
   }
 
   .middle,.phase2a{
     display: flex;
     flex-direction: column;
     gap: 9px;
-  }
-
-  .middle{
-    margin-right: 65px;
   }
 
   .phase3{
@@ -93,7 +77,7 @@ body{
   .special{
     text-align: right;
     border: 3px solid  rgb(217, 211, 211);
-    width: 609px;
+    width: 600px;
     height: 170px;
   }
 
@@ -151,11 +135,22 @@ body{
   .change{
     margin-left: 60px;
   }
-  @media screen  and (max-width:240px) {
+  @media screen  and (max-width:1440px) {
 
     body{
       margin: 30px;
     }
+    #First-Name,#Middle-Name{
+      width: 300px;
+    }
+
+    .phase1{
+      gap: 45px;
+    }
+
     
+  .phase2{
+    gap: 45px;
+  }
   }
 
