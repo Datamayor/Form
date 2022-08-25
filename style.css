@@ -13,26 +13,11 @@ body{
 
   .phase1{
     display: flex;
-    gap: 90px;
+    gap: 175px;
     justify-content: center;
 
   }
 
-  .phase2{
-    display: flex;
-    gap: 55px;
-    justify-content: center;
-  }
-  .phase3{
-    display: flex;
-    gap: 55px;
-    justify-content: center;
-  }
-  .phase4{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-  }
   #Account-Number,#Surname{
     border:3px solid  rgb(217, 211, 211);
     padding:11px;
@@ -42,57 +27,102 @@ body{
     margin-bottom: 50px;
   }
 
-  #First-Name{
+  #Account-Number{
+    width: 600px;
+  }
+
+
+  .surname,.phase1a{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .surname{
+    margin-right: 120px;
+  }
+  .phase2{
+    display: flex;
+    gap: 175px;
+    justify-content: center;
+  }
+
+  #First-Name,#Middle-Name{
     border:3px solid  rgb(217, 211, 211);
     padding:11px;
     border-radius: 10px;
     width: 550px;
     margin-bottom: 50px;
   }
-  #Middle-Name{
-    border:3px solid  rgb(217, 211, 211);
-    padding:11px;
-    border-radius: 10px;
-    width: 500px;
-    margin-left: px;
-    margin-bottom: 50px;
+
+  #First-Name {
+    width: 600px;
   }
 
+  .middle,.phase2a{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .middle{
+    margin-right: 65px;
+  }
+
+  .phase3{
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+  }
+
+  
   #Mobile{
     border:3px solid  rgb(217, 211, 211);
     padding:11px;
     border-radius: 10px;
-    width: 460px;
+    width: 600px;
     margin-bottom: 50px;
   }
 
-  .Mobile{
-    margin-left: px;
+  .phone{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
   }
+
   .special{
     text-align: right;
     border: 3px solid  rgb(217, 211, 211);
     width: 609px;
     height: 170px;
   }
-  
+
+  .total{
+    margin-top: 15px;
+  }
+
+  .phase4{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
   .sr{
-    position: absolute;
-    right: 630px;
+    text-align: left;
     margin-top: 9px;
     font-weight: bolder;
     font-size: 22px;
-  }
-  .total{
-    margin-top: 45px;
-  }
-  .No{
-    margin-left: 90px;
+    margin-left: 29px;
   }
 
   .sn{
     margin-right: 20px;
   }
+
+  .No{
+    margin-left: 90px;
+  }
+
 
   .explain{
     margin-top: 20px;
@@ -109,6 +139,17 @@ body{
   }
   #obile:focus{
     border: 0;
+  }
+
+  .lc{
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 107px;
+  }
+
+  .change{
+    margin-left: 60px;
   }
   @media screen  and (max-width:240px) {
 
