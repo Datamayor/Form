@@ -286,7 +286,7 @@ body{
   @media screen  and (max-width:1440px) {
 
     body{
-      margin: 30px;
+      margin: auto;
       max-width: 440px;
       justify-content: center;
       
@@ -420,11 +420,15 @@ body{
       margin-left: 4px;
       justify-content: left;
     }
-     #Linking,#Change,#Phone-Number,#Date-of-Birth,#Name,#Gender{
+     #Linking,#Verification,#Validation,#Finger-print,#Change,#Phone-Number,#Date-of-Birth,#Name,#Gender{
       width: 6px;
      }
     .change{
       margin-left: 40px;
+    }
+
+    p{
+      font-size: 10px;
     }
   
     .cd{
@@ -488,23 +492,24 @@ body{
     }
   
     .dc{
-      margin-left: 30px;
+      margin-left: 4px;
     }
   
     .dc1{
-      margin-left: 30px;
-      margin-bottom: 60px;
+      margin-left: 4px;
+      margin-bottom: 30px;
     }
   
     .sd{
+      font-size: 8px;
       text-align: right;
-      margin: 150px 200px 50px ;
+      margin: 50px 90px 20px ;
     }
   
     .fbo{
       background-color: red;
-      padding: 15px;
-      margin-bottom: 10px;
+      padding: 7px;
+      margin-bottom: 5px;
       color: white;
     }
   
@@ -512,42 +517,43 @@ body{
       display: flex;
       justify-content: space-between;
       width: 97%;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
+      font-size: 8px;
     }
   
     .finger{
-      margin-bottom: 20px;
+      margin-bottom: 8px;
     }
   
     .ci{
-      margin-top: 40px;
+      margin-top: 18px;
     }
   
     
     #tobile{
       border-bottom:3px solid  rgb(217, 211, 211);
-      padding:21px;
-      width: 420px;
-      margin-bottom: 25px;
-      margin-left: 16px;
+      padding:13px;
+      width: 80px;
+      margin-bottom: 18px;
+      margin-left: 28px;
     }
   
     .cl{
-      margin-top: 20px;
+      margin-top: 7px;
     }
   
     #sobile{
       border-bottom:3px solid  rgb(217, 211, 211);
-      padding:21px;
-      width: 420px;
-      margin-bottom: 25px;
-      margin-left: 260px;
+      padding:18px;
+      width: 210px;
+      margin-bottom: 177px;
+      margin-left: 130px;
     }
   
     .name-sig {
-      margin-left: 20px;
+      margin-left: px;
       display: flex;
-      gap: 300px;
+      gap: 28%;
       justify-content: center;
     }
   
@@ -558,20 +564,21 @@ body{
     }
   
     .sg,.name1{
-         margin-left: 45%
+         margin-left: 20%
     }
     .move{
       margin-left: 7%;
     }
   
     .moveid{
-      margin-left: 13%;
+      margin-left: 17%;
+      padding: 0;
     }
   
     .web{
       text-align: right;
-      padding: 20px;
-      margin-top: 20px;
+      padding: 10px;
+      margin-top: 10px;
       background-color: red;
       color: white;
     } 
