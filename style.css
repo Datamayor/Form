@@ -218,7 +218,10 @@ body{
     margin-bottom: 10px;
     color: white;
   }
-
+   
+  .fbo:hover{
+    background-color: darkred;
+  }
   .form2{
     display: flex;
     justify-content: space-between;
@@ -286,6 +289,11 @@ body{
     background-color: red;
     color: white;
   }
+
+  .web:hover{
+    background-color: darkred;
+  }
+
   @media screen  and (max-width:1440px) {
 
     body{
