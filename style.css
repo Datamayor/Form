@@ -7,12 +7,12 @@
 
 }
 
-.top{
-  margin-right: 100px;
-}
+
 body{
     margin: 90px 100px;
     max-width: 1440px;
+    justify-content: center;
+    
 }
 
   .phase1{
@@ -176,9 +176,14 @@ body{
     margin-bottom: 40px;
   }
 
-  td,th{
+  th{
     border:3px solid  rgb(217, 211, 211);
-    padding: 10px;
+    padding: 30px;
+  }
+
+  td{
+    border:3px solid  rgb(217, 211, 211);
+    padding: 25px;
   }
 
   .ac{
@@ -207,6 +212,7 @@ body{
     background-color: red;
     padding: 15px;
     margin-bottom: 10px;
+    color: white;
   }
 
   .form2{
@@ -224,6 +230,58 @@ body{
     margin-top: 40px;
   }
 
+  
+  #tobile{
+    border-bottom:3px solid  rgb(217, 211, 211);
+    padding:21px;
+    width: 420px;
+    margin-bottom: 25px;
+    margin-left: 16px;
+  }
+
+  .cl{
+    margin-top: 20px;
+  }
+
+  #sobile{
+    border-bottom:3px solid  rgb(217, 211, 211);
+    padding:21px;
+    width: 420px;
+    margin-bottom: 25px;
+    margin-left: 260px;
+  }
+
+  .name-sig {
+    margin-left: 20px;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+  }
+
+  .name2{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+  }
+
+  .sg,.name1{
+       margin-left: 45%
+  }
+  .move{
+    margin-left: 7%;
+  }
+
+  .moveid{
+    margin-left: 13%;
+  }
+
+  .web{
+    text-align: right;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+  }
   @media screen  and (max-width:1440px) {
 
     body{
