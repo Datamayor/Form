@@ -128,10 +128,11 @@ body{
     border: 0;
   }
 
-  .lc{
-    padding: 20px;
-  
-    margin-left: 10px;
+  .bvn{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-left: 30px
   }
 
   .change{
@@ -286,7 +287,7 @@ body{
 
     body{
       margin: 30px;
-      max-width: 640px;
+      max-width: 440px;
       justify-content: center;
       
   }
@@ -336,16 +337,16 @@ body{
   
     .phase3{
       display: flex;
-      gap: 5px;
+      gap: 20px;
       justify-content: center;
     }
   
     
     #Mobile{
       border:2px solid  rgb(217, 211, 211);
-      padding:2px;
+      padding:1px;
       border-radius: 4.5px;
-      width: 75%;
+      width: 140px;
     }
   
     .phone{
@@ -359,9 +360,9 @@ body{
     .special{
       text-align: right;
       border: 3px solid  rgb(217, 211, 211);
-      width: 120px;
-      height: 100px;
-      margin-left: 0px;
+      width: 150px;
+      height: 70px;
+      margin-right: 17px;
     }
   
     .total{
@@ -387,95 +388,103 @@ body{
       margin-right: 2px;
       font-size: 6px;
     }
-    .y{font-size: 2px;}
+    .y{font-size: 5px;}
   
     .No{
       margin-left: 1px;
       font-size: 6px;
     }
-  
+   #No,#Yes{
+    width: 6px;
+   }
   
     .explain{
+      text-align: left;
+      font-size: 6px;
       margin-top: 2px;
-      margin-right: 3px;
+      margin-right: 6px;
+      margin-left: 6px;
     }
   
     #obile{
       border-bottom:3px solid  rgb(217, 211, 211);
-      padding:21px;
-      width: 4px;
-      margin-bottom: 50px;
+      padding:2px;
+      width: 60px;
+      margin-bottom: 1px;
       position: absolute;
       margin-left: 1px;
     }
-    #obile:focus{
-      border: 0;
+    .bvn{
+      font-size: 7px;
+      width: 200px;
+      margin-left: 4px;
+      justify-content: left;
     }
-  
-    .lc{
-      padding: 20px;
-    
-      margin-left: 10px;
-    }
-  
+     #Linking,#Change,#Phone-Number,#Date-of-Birth,#Name,#Gender{
+      width: 6px;
+     }
     .change{
-      margin-left: 60px;
+      margin-left: 40px;
     }
   
     .cd{
-      margin-left: 10px;
-      padding: 20px;
+      margin-left: 4px;
+      padding: 4px 0;
+      font-size: 8px;
     }
   
     .top-form{
       padding: 5px;
-      margin-left: 26px;
+      margin-left: 16px;
+      font-size: 8px;
     }
   
     .tick-click{
-      margin-left: 22px;
+      margin-left: 2px;
       display: flex;
-      padding: 10px;
+      padding: 2px;
+      font-size: 5px;
     }
+
   
     .h5{
-      margin-left: 9px;
+      margin-left: 4px;
   
     }
   
     .form1{
-      margin-left: 19px;
+      margin-left: 6px;
       display: flex;
       justify-content: space-between;
       width: 60%;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
   
     table{
-      margin-left: 30px;
-      width:96%;
-      height: 350px;
+      margin-left: 4px;
+      width:92%;
+      height: 60px;
       border-collapse: collapse;
       text-align: left;
-      margin-bottom: 40px;
+      margin-bottom: 10px;
     }
   
     th{
-      border:3px solid  rgb(217, 211, 211);
-      padding: 30px;
+      border:1.5px solid  rgb(217, 211, 211);
+      padding: 10px;
     }
   
     td{
-      border:3px solid  rgb(217, 211, 211);
-      padding: 25px;
+      border:1.5px solid  rgb(217, 211, 211);
+      padding: 10px;
     }
   
     .ac{
-      margin-left: 30px;
+      margin-left: 4px;
     }
   
     .fist{
-      margin-left: 30px;
+      margin-left: 4px;
     }
   
     .dc{
