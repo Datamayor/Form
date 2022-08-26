@@ -288,15 +288,12 @@ body{
     body{
       margin: auto;
       max-width: 427px;
-      justify-content: center;
+     
       
   }
   
     .phase1{
-      display: flex;
-      gap: 2px;
-      justify-content: center;
-  
+      gap: 2px;  
     }
   
     #Account-Number,#Surname{
@@ -309,15 +306,11 @@ body{
   
     .surname,.phase1a{
       font-size: 7px;
-      display: flex;
-      flex-direction: column;
       gap: 9px;
     }
   
     .phase2{
-      display: flex;
       gap: 5px;
-      justify-content: center;
     }
   
     #First-Name,#Middle-Name{
@@ -330,15 +323,11 @@ body{
   
     .middle,.phase2a{
       font-size: 7px;
-      display: flex;
-      flex-direction: column;
       gap: 9px;
     }
   
     .phase3{
-      display: flex;
       gap: 20px;
-      justify-content: center;
     }
   
     
@@ -346,23 +335,20 @@ body{
       border:2px solid  rgb(217, 211, 211);
       padding:1px;
       border-radius: 4.5px;
-      width: 140px;
+      width: 160px;
     }
   
     .phone{
       font-size: 7px;
       display: flex;
-      flex-direction: column;
       gap: 9px;
       margin-top: 10px;
     }
   
     .special{
-      text-align: right;
-      border: 3px solid  rgb(217, 211, 211);
-      width: 150px;
+      width: 161px;
       height: 70px;
-      margin-right: 17px;
+      margin-right: 14px;
     }
   
     .total{
@@ -371,15 +357,11 @@ body{
     }
   
     .phase4{
-      display: flex;
       gap: 10px;
-      justify-content: center;
     }
   
     .sr{
-      text-align: left;
       margin-top: 2px;
-      font-weight: bolder;
       font-size: 6px;
       margin-left: 2px;
     }
@@ -388,7 +370,9 @@ body{
       margin-right: 2px;
       font-size: 6px;
     }
-    .y{font-size: 5px;}
+    .y{
+      font-size: 5px;
+    }
   
     .No{
       margin-left: 1px;
@@ -411,14 +395,12 @@ body{
       padding:2px;
       width: 60px;
       margin-bottom: 1px;
-      position: absolute;
       margin-left: 1px;
     }
     .bvn{
       font-size: 7px;
       width: 200px;
       margin-left: 4px;
-      justify-content: left;
     }
      #Linking,#Verification,#Validation,#Finger-print,#Change,#Phone-Number,#Date-of-Birth,#Name,#Gender{
       width: 6px;
@@ -445,7 +427,6 @@ body{
   
     .tick-click{
       margin-left: 2px;
-      display: flex;
       padding: 2px;
       font-size: 5px;
     }
@@ -458,8 +439,6 @@ body{
   
     .form1{
       margin-left: 6px;
-      display: flex;
-      justify-content: space-between;
       width: 60%;
       margin-bottom: 10px;
     }
@@ -468,7 +447,6 @@ body{
       margin-left: 4px;
       width:92%;
       height: 60px;
-      border-collapse: collapse;
       text-align: left;
       margin-bottom: 10px;
     }
@@ -502,20 +480,15 @@ body{
   
     .sd{
       font-size: 8px;
-      text-align: right;
       margin: 50px 90px 20px ;
     }
   
     .fbo{
-      background-color: red;
       padding: 7px;
       margin-bottom: 5px;
-      color: white;
     }
   
     .form2{
-      display: flex;
-      justify-content: space-between;
       width: 97%;
       margin-bottom: 5px;
       font-size: 8px;
@@ -531,7 +504,6 @@ body{
   
     
     #tobile{
-      border-bottom:3px solid  rgb(217, 211, 211);
       padding:13px;
       width: 80px;
       margin-bottom: 18px;
@@ -543,7 +515,6 @@ body{
     }
   
     #sobile{
-      border-bottom:3px solid  rgb(217, 211, 211);
       padding:18px;
       width: 210px;
       margin-bottom: 177px;
@@ -551,18 +522,9 @@ body{
     }
   
     .name-sig {
-      margin-left: px;
-      display: flex;
       gap: 28%;
-      justify-content: center;
     }
-  
-    .name2{
-      display: flex;
-     flex-direction: column;
-      justify-content: center;
-    }
-  
+
     .sg,.name1{
          margin-left: 20%
     }
@@ -576,11 +538,8 @@ body{
     }
   
     .web{
-      text-align: right;
       padding: 10px;
       margin-top: 10px;
-      background-color: red;
-      color: white;
     } 
 
   }
