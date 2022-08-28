@@ -25,7 +25,7 @@ body{
 
   }
 
-  #Account-Number,#Surname{
+  .one{
     border:3px solid  rgb(217, 211, 211);
     padding:11px;
     border-radius: 9px;
@@ -45,14 +45,6 @@ body{
     justify-content: center;
   }
 
-  #First-Name,#Middle-Name{
-    border:3px solid  rgb(217, 211, 211);
-    padding:11px;
-    border-radius: 10px;
-    width: 600px;
-    margin-bottom: 50px;
-  }
-
   .middle,.phase2a{
     display: flex;
     flex-direction: column;
@@ -65,13 +57,6 @@ body{
     justify-content: center;
   }
 
-  
-  #Mobile{
-    border:3px solid  rgb(217, 211, 211);
-    padding:11px;
-    border-radius: 10px;
-    width: 600px;
-  }
 
   .phone{
     display: flex;
@@ -307,7 +292,7 @@ body{
       gap: 2px;  
     }
   
-    #Account-Number,#Surname{
+    .one{
       border:2px solid  rgb(217, 211, 211);
       padding:2px;
       border-radius: 4.5px;
@@ -323,15 +308,7 @@ body{
     .phase2{
       gap: 5px;
     }
-  
-    #First-Name,#Middle-Name{
-      border:2px solid  rgb(217, 211, 211);
-      padding:2px;
-      border-radius: 4.5px;
-      width: 90%;
-      margin-bottom: 8px;
-    }
-  
+
     .middle,.phase2a{
       font-size: 7px;
       gap: 9px;
@@ -339,14 +316,6 @@ body{
   
     .phase3{
       gap: 20px;
-    }
-  
-    
-    #Mobile{
-      border:2px solid  rgb(217, 211, 211);
-      padding:1px;
-      border-radius: 4.5px;
-      width: 160px;
     }
   
     .phone{
