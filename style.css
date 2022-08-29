@@ -21,40 +21,22 @@ body{
   .phase1{
     display: flex;
     gap: 90px;
-    justify-content: center;
-
+    justify-content: space-between;
   }
 
   .one{
     border:1.5px solid  rgb(217, 211, 211);
     padding:11px;
     border-radius: 9px;
-    width: 600px;
+    width: 100%;
     margin-bottom: 50px;
   }
 
-  .surname,.phase1a{
+  .surname,.phase1a,.middle,.phase2a{
     display: flex;
     flex-direction: column;
     gap: 9px;
-  }
-
-  .phase2{
-    display: flex;
-    gap: 90px;
-    justify-content: center;
-  }
-
-  .middle,.phase2a{
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-  }
-
-  .phase3{
-    display: flex;
-    gap: 90px;
-    justify-content: center;
+    width: 100%;
   }
 
 
@@ -63,6 +45,7 @@ body{
     flex-direction: column;
     gap: 9px;
     margin-top: 30px;
+    width: 50%;
   }
 
   .special{
@@ -70,6 +53,7 @@ body{
     border: 1px solid  rgb(217, 211, 211);
     width: 600px;
     height: 170px;
+    width: 50%;
   }
 
   .total{
@@ -79,7 +63,7 @@ body{
   .phase4{
     display: flex;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .sr{
@@ -87,17 +71,22 @@ body{
     margin-top: 9px;
     font-weight: bolder;
     font-size: 22px;
-    margin-left: 29px;
+    margin-left: 59px;
   }
 
   .sn{
-    margin-right: 20px;
+    margin-left: 170px;
   }
 
-  .No{
-    margin-left: 90px;
+  .ye{
+    margin-left: 120px;
+    margin-right: 59px;
   }
 
+  .yes{
+    display: flex;
+    justify-content: space-between;
+  }
 
   .explain{
     margin-top: 20px;
@@ -120,36 +109,23 @@ body{
     display: flex;
     justify-content: space-between;
     width: 400px;
-    margin-left: 30px
   }
 
-  .change{
-    margin-left: 60px;
-  }
 
   .cd{
-    margin-left: 20px;
-    padding: 10px;
+    padding: 10px 0;
   }
 
   .top-form{
-    padding: 5px;
-    margin-left: 26px;
+    padding: 5px 0;
   }
 
   .tick-click{
-    margin-left: 22px;
     display: flex;
-    padding: 10px;
-  }
-
-  .h5{
-    margin-left: 9px;
-
+    padding: 10px 0;
   }
 
   .form1{
-    margin-left: 19px;
     display: flex;
     justify-content: space-between;
     width: 35%;
@@ -157,7 +133,6 @@ body{
   }
 
   table{
-    margin-left: 30px;
     height: 350px;
     width: 94.2%;
     border-collapse: collapse;
@@ -175,20 +150,7 @@ body{
     padding: 25px;
   }
 
-  .ac{
-    margin-left: 30px;
-  }
-
-  .fist{
-    margin-left: 30px;
-  }
-
-  .dc{
-    margin-left: 30px;
-  }
-
   .dc1{
-    margin-left: 30px;
     margin-bottom: 60px;
   }
 
@@ -228,7 +190,6 @@ body{
     padding:21px;
     width: 420px;
     margin-bottom: 25px;
-    margin-left: 16px;
   }
 
   .cl{
@@ -244,7 +205,6 @@ body{
   }
 
   .name-sig {
-    margin-left: 20px;
     display: flex;
     gap: 300px;
     justify-content: center;
@@ -333,7 +293,6 @@ body{
   
     .total{
       margin-top: 4px;
-      margin-left: 2px;
     }
   
     .phase4{
@@ -343,7 +302,7 @@ body{
     .sr{
       margin-top: 2px;
       font-size: 6px;
-      margin-left: 2px;
+      margin-left: 9px;
     }
   
     .sn{
@@ -353,6 +312,12 @@ body{
     .y{
       font-size: 5px;
     }
+
+    .ye{
+      margin-left: 20px;
+      margin-right: 1px;
+    }
+  
   
     .No{
       margin-left: 1px;
@@ -379,14 +344,13 @@ body{
     }
     .bvn{
       font-size: 7px;
-      width: 200px;
-      margin-left: 4px;
+      width: 130px;
     }
      #Linking,#Verification,#Validation,#Finger-print,#Change,#Phone-Number,#Date-of-Birth,#Name,#Gender{
       width: 6px;
      }
     .change{
-      margin-left: 40px;
+      margin-left: px;
     }
 
     p{
@@ -394,29 +358,20 @@ body{
     }
   
     .cd{
-      margin-left: 4px;
       padding: 4px 0;
       font-size: 8px;
     }
   
     .top-form{
-      padding: 5px;
-      margin-left: 16px;
+      padding: 5px 0;
       font-size: 8px;
     }
   
     .tick-click{
-      margin-left: 2px;
-      padding: 2px;
+      padding: 2px 0;
       font-size: 5px;
     }
 
-  
-    .h5{
-      margin-left: 4px;
-  
-    }
-  
     .form1{
       margin-left: 6px;
       width: 60%;
@@ -424,7 +379,6 @@ body{
     }
   
     table{
-      margin-left: 4px;
       width:92%;
       height: 60px;
       text-align: left;
